@@ -36,6 +36,6 @@ End-to-end pipeline to extract and redact PII from messy handwritten hospital re
 ---
 
 ## 📦 Deliverables
-- `ocr_pii_pipeline.ipynb` — Runnable notebook  
-- `requirements.txt` — Reproducible deps  
-- `results_screenshot.png` — Final output  
+- `ocr_pii_pipeline.ipynb` - Runnable notebook  
+- `requirements.txt` - Reproducible deps  
+- `results_screenshot.png` - Final output  
