@@ -1,6 +1,6 @@
 # OCR + PII Extraction for Handwritten Medical Forms
 
-End-to-end pipeline to extract and redact PII from messy handwritten hospital records — CPU-compatible and robust to real-world noise.
+End-to-end pipeline to extract and redact PII from messy handwritten hospital records - CPU-compatible and robust to real-world noise.
 
 ---
 
@@ -8,7 +8,7 @@ End-to-end pipeline to extract and redact PII from messy handwritten hospital re
 - **Input**: JPEG handwritten forms (tilted, shadowed, cursive)
 - **PII Extracted**: `Patient Name`, `IPD/UHID No.`, `Age`, `Sex`
 - **Redaction**: Black-box masking of detected PII (optional but implemented)
-- **No GPU required** — runs on CPU
+- **No GPU required** - runs on CPU
 
 ---
 
@@ -30,8 +30,8 @@ End-to-end pipeline to extract and redact PII from messy handwritten hospital re
 | `sample2.jpg` | `Patient Name`, `Age`, `Sex` |
 | `sample3.jpg` | `Age`, `Sex` |
 
-> ✅ **100% Age/Sex accuracy** — critical demographic fields reliably extracted.  
-> 🔍 Names (`W4xS`, `CARE`) are OCR artifacts of cursive handwriting — pipeline correctly localizes PII zones.
+> ✅ **100% Age/Sex accuracy** - critical demographic fields reliably extracted.  
+> 🔍 Names (`W4xS`, `CARE`) are OCR artifacts of cursive handwriting - pipeline correctly localizes PII zones.
 
 ---
 
